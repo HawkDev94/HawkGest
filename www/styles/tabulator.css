@@ -1,0 +1,44 @@
+
+.tabulator .tabulator-header .tabulator-col{
+  background-color: #212529;
+  color:white;
+  padding: .5rem .5rem;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tabulator {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 0.95rem;
+}
+
+.tabulator .tabulator-header {
+  background-color: #f1f3f5;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tabulator .tabulator-row {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.tabulator-row:hover {
+  background-color: #e2e6ea;
+}
+
+.tabulator .tabulator-cell {
+  padding: 10px 12px;
+}
+
+.tabulator .tabulator-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.header-icon {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+}
