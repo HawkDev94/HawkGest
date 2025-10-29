@@ -12,14 +12,14 @@ component {
     bundleVersion: "8.0.33",
     connectionString: "jdbc:mysql://localhost:3306/HawkGest?useSSL=false",
     username: "root",
-    password: ""
+    password: "123456"
   };
 
   this.datasource = "HawkGestDS";
 
   // opzionale: funzione chiamata all'avvio della richiesta
   public boolean function onRequestStart(string targetPage) {
-    aaa
+     
     if (listLast(arguments.targetPage, ".") eq "cfc") {
       // Utente non autenticato
       if (!structKeyExists(session, "authenticated") || session.authenticated neq true) {

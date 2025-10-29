@@ -12,7 +12,7 @@
       </cfif>
     </cfquery>
        
-    <cfreturn aoProducts>
+    <cfreturn aoProducts> 
   </cffunction>
 
   <cffunction name="getProductsDetail" access="remote" returnType="query" output="false">

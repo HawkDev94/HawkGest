@@ -3,12 +3,12 @@
 <cfparam name="attributes.aoField" default="#arrayNew(1)#">
 
 <!-- Modal -->
-<div class="modal fade" id="<cfoutput>#attributes.pIdform#</cfoutput>" tabindex="-1" aria-labelledby="macchinaUtensileModalLabel" aria-hidden="true">
+<div class="modal fade" id="<cfoutput>#attributes.pIdform#</cfoutput>" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       
       <div class="modal-header">
-        <h5 class="modal-title" id="macchinaUtensileModalLabel"><cfoutput>#attributes.pFormtitle#</cfoutput></h5>
+        <h5 class="modal-title" id="modalLabel"><cfoutput>#attributes.pFormtitle#</cfoutput></h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Chiudi"></button>
       </div>
 
