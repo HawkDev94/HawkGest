@@ -1,0 +1,9 @@
+# File CAD di grandi dimensioni
+*.dxf
+*.dwg
+
+
+# File di backup o temporanei
+*.zip
+*.rar
+*.bak
