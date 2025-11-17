@@ -14,7 +14,7 @@
   <!-- Tabulator CSS -->
   <link href="https://unpkg.com/tabulator-tables@5.5.0/dist/css/tabulator.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/styles/tabulator.css">
-
+  <link rel="stylesheet" href="/styles/menu.css">
   <link rel="stylesheet" href="/styles/style.css">
   <!-- Tabulator JS -->
   <script src="https://unpkg.com/tabulator-tables@5.5.0/dist/js/tabulator.min.js"></script>
@@ -22,5 +22,9 @@
 </head>
 <body>
 
-<cf_menu
+  <div class="layout">
+<cf_menu-v
   pChoose="#attributes.pChoose#">
+
+   <!-- MAIN CONTENT -->
+    <main class="content">

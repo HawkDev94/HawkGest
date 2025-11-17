@@ -14,6 +14,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav me-auto">
           <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 1>active</cfif>" href="dashboard.cfm">Dashboard</a></li>
@@ -21,7 +22,7 @@
           <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 2>active</cfif>" href="ordini.cfm">Ordini</a></li>
           <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 3>active</cfif>" href="magazzino.cfm">Magazzino</a></li>
           <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 4>active</cfif>" href="operai.cfm">Operai</a></li>
-		  <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 5>active</cfif>" href="macchine.cfm">Macchine</a></li>
+		      <li class="nav-item"><a class="nav-link <cfif attributes.pChoose EQ 5>active</cfif>" href="macchine.cfm">Macchine</a></li>
         </ul>
 
         <div id="logoutArea" class="d-flex align-items-center" style="display: none;">

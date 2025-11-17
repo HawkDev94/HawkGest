@@ -1,4 +1,6 @@
-<div style="margin-top:125px"></div>
+
+</div></div>
+
 <footer style="background-color: #2c3e50;color: #ecf0f1;text-align: center;padding: 15px 10px;font-size: 14px;position: fixed;bottom: 0;width: 100%;box-shadow: 0 -2px 5px rgba(0,0,0,0.1);">
   <div>
     &copy; 2025 <strong>HawkGest</strong> - Tutti i diritti riservati.
